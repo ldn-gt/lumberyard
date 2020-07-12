@@ -1,2 +1,9 @@
 [2020-07-12T00:10:07] [55644:53652:20200712,001007.892:ERROR main.cpp:27] Initializing windows crash uploader
 [2020-07-12T03:44:43] [64120:82280:20200712,034443.679:ERROR main.cpp:27] Initializing windows crash uploader
+[2020-07-12T12:01:37] [74428:75288:20200712,120137.431:ERROR main.cpp:27] Initializing windows crash uploader
+[2020-07-12T12:30:09] [68348:51508:20200712,123009.606:ERROR main.cpp:27] Initializing windows crash uploader
+[2020-07-12T12:34:20] [9320:16308:20200712,123420.637:ERROR main.cpp:27] Initializing windows crash uploader
+[2020-07-12T12:36:03] [70128:76792:20200712,123603.234:ERROR main.cpp:27] Initializing windows crash uploader
+[2020-07-12T12:45:24] [38176:33000:20200712,124524.624:ERROR main.cpp:27] Initializing windows crash uploader
+[2020-07-12T12:45:59] [31452:29832:20200712,124559.652:ERROR main.cpp:27] Initializing windows crash uploader
+[2020-07-12T12:53:22] [42640:50828:20200712,125322.432:ERROR main.cpp:27] Initializing windows crash uploader

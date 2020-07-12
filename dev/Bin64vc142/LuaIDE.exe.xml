@@ -1,0 +1,80 @@
+<ObjectStream version="3">
+	<Class name="ComponentApplication::Descriptor" version="2" type="{70277A3E-2AF5-4309-9BBF-6161AFBDE792}">
+		<Class name="bool" field="useExistingAllocator" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+		<Class name="bool" field="grabAllMemory" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+		<Class name="bool" field="allocationRecords" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+		<Class name="bool" field="allocationRecordsSaveNames" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+		<Class name="bool" field="allocationRecordsAttemptDecodeImmediately" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+		<Class name="int" field="recordingMode" value="2" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+		<Class name="AZ::u64" field="stackRecordLevels" value="5" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+		<Class name="bool" field="autoIntegrityCheck" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+		<Class name="bool" field="markUnallocatedMemory" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+		<Class name="bool" field="doNotUsePools" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+		<Class name="bool" field="enableScriptReflection" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+		<Class name="unsigned int" field="pageSize" value="65536" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+		<Class name="unsigned int" field="poolPageSize" value="4096" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+		<Class name="unsigned int" field="blockAlignment" value="65536" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+		<Class name="AZ::u64" field="blockSize" value="0" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+		<Class name="AZ::u64" field="reservedOS" value="0" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+		<Class name="AZ::u64" field="reservedDebug" value="0" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+		<Class name="bool" field="enableDrilling" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+		<Class name="bool" field="useOverrunDetection" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+		<Class name="bool" field="useMalloc" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+		<Class name="AZStd::vector" field="allocatorRemappings" type="{82897F6E-6389-5BEF-B427-761DB35AC1CC}"/>
+		<Class name="AZStd::vector" field="modules" type="{8E779F80-AEAA-565B-ABB1-DE10B18CF995}"/>
+	</Class>
+	<Class name="AZ::Entity" version="2" type="{75651658-8663-478D-9090-2432DFCAFA44}">
+		<Class name="EntityId" field="Id" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
+			<Class name="AZ::u64" field="id" value="0" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+		</Class>
+		<Class name="AZStd::string" field="Name" value="SystemEntity" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+		<Class name="AZStd::vector" field="Components" type="{13D58FF9-1088-5C69-9A1F-C2A144B57B78}">
+			<Class name="AZ::MemoryComponent" field="element" version="1" type="{6F450DDA-6F4D-40FD-A93B-E5CCCDBC72AB}">
+				<Class name="AZ::Component" field="BaseClass1" type="{EDFCB2CF-F75D-43BE-B26B-F35821B29247}">
+					<Class name="AZ::u64" field="Id" value="16903101354617144450" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+				</Class>
+				<Class name="bool" field="isPoolAllocator" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+				<Class name="bool" field="isThreadPoolAllocator" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+			</Class>
+			<Class name="AZ::JobManagerComponent" field="element" version="1" type="{CAE3A025-FAC9-4537-B39E-0A800A2326DF}">
+				<Class name="AZ::Component" field="BaseClass1" type="{EDFCB2CF-F75D-43BE-B26B-F35821B29247}">
+					<Class name="AZ::u64" field="Id" value="9162107240891118221" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+				</Class>
+				<Class name="int" field="NumberOfWorkerThreads" value="0" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+				<Class name="int" field="FirstThreadCPUID" value="-1" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+			</Class>
+			<Class name="StreamerComponent" field="element" version="6" type="{DA47D715-2710-49E2-BC94-EF81C311D89C}">
+				<Class name="AZ::Component" field="BaseClass1" type="{EDFCB2CF-F75D-43BE-B26B-F35821B29247}">
+					<Class name="AZ::u64" field="Id" value="3342459599830211626" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+				</Class>
+				<Class name="int" field="DeviceThreadCpuId" value="-1" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+				<Class name="int" field="DeviceThreadPriority" value="-100000" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+				<Class name="Preferences" field="StreamStackConfiguration" version="3" type="{8F265F08-EA03-4F3F-8533-CF03ADC7884D}">
+					<Class name="int" field="PlatformIntegration" value="1" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+					<Class name="int" field="FileHandleCachePreference" value="1" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+					<Class name="CacheConfiguration" field="BlockCache" version="1" type="{D85E236D-C782-4C60-9DA5-B2AB2EE28BC5}">
+						<Class name="int" field="Configuration" value="2" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+						<Class name="AZ::u64" field="BlockSizeMB" value="5" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+						<Class name="bool" field="OnlyEpilogWrites" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+					</Class>
+					<Class name="CacheConfiguration" field="DedicatedCache" version="1" type="{D85E236D-C782-4C60-9DA5-B2AB2EE28BC5}">
+						<Class name="int" field="Configuration" value="3" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+						<Class name="AZ::u64" field="BlockSizeMB" value="1" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+						<Class name="bool" field="OnlyEpilogWrites" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+					</Class>
+					<Class name="int" field="ReadSplitter" value="2" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+					<Class name="unsigned int" field="FullDecompressionJobThreads" value="2" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+					<Class name="unsigned int" field="FullDecompressionReads" value="2" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				</Class>
+			</Class>
+			<Class name="Framework" field="element" version="1" type="{7E1721AE-5324-40EA-9E6E-8EDBF3BC7B2C}">
+				<Class name="AZ::Component" field="BaseClass1" type="{EDFCB2CF-F75D-43BE-B26B-F35821B29247}">
+					<Class name="AZ::u64" field="Id" value="8208384420217854482" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+				</Class>
+			</Class>
+		</Class>
+		<Class name="bool" field="IsDependencyReady" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+		<Class name="bool" field="IsRuntimeActive" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+	</Class>
+</ObjectStream>
+

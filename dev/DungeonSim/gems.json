@@ -14,58 +14,34 @@
             "_comment": "PBSreferenceMaterials"
         },
         {
-            "Path": "Gems/CloudCanvasCommon",
-            "Uuid": "102e23cf4c4c4b748585edbce2bbdc65",
-            "Version": "0.1.0",
-            "_comment": "CloudCanvasCommon"
-        },
-        {
-            "Path": "Gems/CloudGemFramework/v1",
-            "Uuid": "6fc787a982184217a5a553ca24676cfa",
-            "Version": "1.1.4",
-            "_comment": "CloudGemFramework"
-        },
-        {
-            "Path": "Gems/ScriptCanvas",
-            "Uuid": "869a0d0ec11a45c299917d45c81555e6",
-            "Version": "0.1.0",
-            "_comment": "ScriptCanvasGem"
-        },
-        {
-            "Path": "Gems/ScriptEvents",
-            "Uuid": "32d8ba21703e4bbbb08487366e48dd69",
-            "Version": "0.1.0",
-            "_comment": "ScriptEvents"
-        },
-        {
-            "Path": "Gems/ScriptCanvasPhysics",
-            "Uuid": "1c27519a4dda4ffaaeebf91514e5b1e8",
-            "Version": "0.1.0",
-            "_comment": "ScriptCanvasPhysics"
-        },
-        {
-            "Path": "Gems/GraphCanvas",
-            "Uuid": "875b6fcbdeea44deaae7984ad9bb6cdc",
-            "Version": "0.1.0",
-            "_comment": "GraphCanvas"
-        },
-        {
             "Path": "Gems/StartingPointInput",
             "Uuid": "09f4bedeee614358bc36788e77f97e51",
             "Version": "0.1.0",
             "_comment": "StartingPointInput"
         },
         {
-            "Path": "Gems/SceneProcessing",
-            "Uuid": "7c2578f634df4345aca98d671e39b8ab",
-            "Version": "0.1.0",
-            "_comment": "SceneProcessing"
-        },
-        {
             "Path": "Gems/LyShine",
             "Uuid": "0fefab3f13364722b2eab3b96ce2bf20",
             "Version": "0.1.0",
             "_comment": "LyShine"
+        },
+        {
+            "Path": "Gems/CloudCanvasCommon",
+            "Uuid": "102e23cf4c4c4b748585edbce2bbdc65",
+            "Version": "0.1.0",
+            "_comment": "CloudCanvasCommon"
+        },
+        {
+            "Path": "Gems/SliceFavorites",
+            "Uuid": "1bfc7270d4a1490daac8aa8b072c4489",
+            "Version": "0.1.0",
+            "_comment": "SliceFavorites"
+        },
+        {
+            "Path": "Gems/ScriptCanvasPhysics",
+            "Uuid": "1c27519a4dda4ffaaeebf91514e5b1e8",
+            "Version": "0.1.0",
+            "_comment": "ScriptCanvasPhysics"
         },
         {
             "Path": "Gems/HttpRequestor",
@@ -80,16 +56,39 @@
             "_comment": "LegacyGameInterface"
         },
         {
+            "Path": "Gems/ScriptEvents",
+            "Uuid": "32d8ba21703e4bbbb08487366e48dd69",
+            "Version": "0.1.0",
+            "_comment": "ScriptEvents"
+        },
+        {
             "Path": "Gems/CryLegacy",
             "Uuid": "352fef7706634c92814c587e84d7165a",
             "Version": "0.1.0",
             "_comment": "CryLegacy"
         },
         {
+            "Path": "DungeonSim/Gem",
+            "Uuid": "3611ea020cf5458abdf551d9f00625fa",
+            "Version": "0.1.0"
+        },
+        {
             "Path": "Gems/Maestro",
             "Uuid": "3b9a978ed6f742a1acb99f74379a342c",
             "Version": "0.1.0",
             "_comment": "Maestro"
+        },
+        {
+            "Path": "Gems/ExpressionEvaluation",
+            "Uuid": "4c6f9df57ca2468f93c8d860ee6a1167",
+            "Version": "0.1.0",
+            "_comment": "ExpressionEvaluation"
+        },
+        {
+            "Path": "Gems/PhysX",
+            "Uuid": "4e08125824434932a0fe3717259caa47",
+            "Version": "0.1.0",
+            "_comment": "PhysX"
         },
         {
             "Path": "Gems/CameraFramework",
@@ -102,6 +101,12 @@
             "Uuid": "59b1b2acc1974aae9f18faddcaddac5b",
             "Version": "0.1.0",
             "_comment": "InputManagementFramework"
+        },
+        {
+            "Path": "Gems/TextureAtlas",
+            "Uuid": "5a149b6b3c964064bd4970f0e92f72e2",
+            "Version": "0.1.0",
+            "_comment": "TextureAtlas"
         },
         {
             "Path": "Gems/Gestures",
@@ -128,6 +133,12 @@
             "_comment": "UiBasics"
         },
         {
+            "Path": "Gems/CloudGemFramework/v1",
+            "Uuid": "6fc787a982184217a5a553ca24676cfa",
+            "Version": "1.1.4",
+            "_comment": "CloudGemFramework"
+        },
+        {
             "Path": "Gems/StartingPointMovement",
             "Uuid": "73d8779dc28a4123b7c9ed76217464af",
             "Version": "0.1.0",
@@ -140,10 +151,28 @@
             "_comment": "GameLift"
         },
         {
+            "Path": "Gems/SceneProcessing",
+            "Uuid": "7c2578f634df4345aca98d671e39b8ab",
+            "Version": "0.1.0",
+            "_comment": "SceneProcessing"
+        },
+        {
             "Path": "Gems/StartingPointCamera",
             "Uuid": "834070b9537d44df83559e2045c3859f",
             "Version": "0.1.0",
             "_comment": "StartingPointCamera"
+        },
+        {
+            "Path": "Gems/ScriptCanvas",
+            "Uuid": "869a0d0ec11a45c299917d45c81555e6",
+            "Version": "0.1.0",
+            "_comment": "ScriptCanvasGem"
+        },
+        {
+            "Path": "Gems/GraphCanvas",
+            "Uuid": "875b6fcbdeea44deaae7984ad9bb6cdc",
+            "Version": "0.1.0",
+            "_comment": "GraphCanvas"
         },
         {
             "Path": "Gems/InAppPurchases",
@@ -176,10 +205,22 @@
             "_comment": "LyShineExamples"
         },
         {
-            "Path": "Gems/CryEntityRemoval",
-            "Uuid": "f3ae24a1635e4f849535f37ef9f4b4da",
+            "Path": "Gems/LegacyTerrain",
+            "Uuid": "c87f9fc3e7054f3482311da444e84456",
             "Version": "0.1.0",
-            "_comment": "CryEntityRemoval"
+            "_comment": "LegacyTerrain"
+        },
+        {
+            "Path": "Gems/Multiplayer",
+            "Uuid": "d3ed407a19bb4c0d92b7c4872313d600",
+            "Version": "1.0.0",
+            "_comment": "Multiplayer"
+        },
+        {
+            "Path": "Gems/PrimitiveAssets",
+            "Uuid": "ed07631f95fb4be1bd10cd37298ec697",
+            "Version": "1.0.0",
+            "_comment": "PrimitiveAssets"
         },
         {
             "Path": "Gems/ImageProcessing",
@@ -188,10 +229,10 @@
             "_comment": "ImageProcessing"
         },
         {
-            "Path": "Gems/TextureAtlas",
-            "Uuid": "5a149b6b3c964064bd4970f0e92f72e2",
+            "Path": "Gems/CryEntityRemoval",
+            "Uuid": "f3ae24a1635e4f849535f37ef9f4b4da",
             "Version": "0.1.0",
-            "_comment": "TextureAtlas"
+            "_comment": "CryEntityRemoval"
         },
         {
             "Path": "Gems/Camera",
@@ -204,36 +245,6 @@
             "Uuid": "ff06785f7145416b9d46fde39098cb0c",
             "Version": "0.1.0",
             "_comment": "LmbrCentral"
-        },
-        {
-            "Path": "Gems/PrimitiveAssets",
-            "Uuid": "ed07631f95fb4be1bd10cd37298ec697",
-            "Version": "1.0.0",
-            "_comment": "PrimitiveAssets"
-        },
-        {
-            "Path": "Gems/SliceFavorites",
-            "Uuid": "1bfc7270d4a1490daac8aa8b072c4489",
-            "Version": "0.1.0",
-            "_comment": "SliceFavorites"
-        },
-        {
-            "Path": "Gems/ExpressionEvaluation",
-            "Uuid": "4c6f9df57ca2468f93c8d860ee6a1167",
-            "Version": "0.1.0",
-            "_comment": "ExpressionEvaluation"
-        },
-        {
-            "Path": "Gems/LegacyTerrain",
-            "Uuid": "c87f9fc3e7054f3482311da444e84456",
-            "Version": "0.1.0",
-            "_comment": "LegacyTerrain"
-        },
-        {
-            "Path" : "DungeonSim/Gem",
-            "Uuid" : "3611ea020cf5458abdf551d9f00625fa",
-            "Version" : "0.1.0",
-            "_comment" : "DungeonSim"
         }
     ]
 }
