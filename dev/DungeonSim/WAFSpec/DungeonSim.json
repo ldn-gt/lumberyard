@@ -1,0 +1,9 @@
+{
+    "description": "Configuration for DungeonSim",
+    "visual_studio_name": "DungeonSim",
+    "comment" : "",
+    "game_projects" : "DungeonSim",
+
+    "modules" : [
+    ]
+}

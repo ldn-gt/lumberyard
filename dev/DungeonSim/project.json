@@ -1,0 +1,14 @@
+{
+    "project_name": "DungeonSim",
+    "product_name": "DungeonSim",
+    "executable_name": "DungeonSimLauncher",
+    "modules" : [],
+    "project_id": "{1D541CAF-1033-4350-A5F6-A80C1D89E7E2}",
+
+    "android_settings" : {
+        "package_name" : "com.lumberyard.yourgame",
+        "version_number" : 1,
+        "version_name" : "1.0.0",
+        "orientation" : "landscape"
+    }
+}

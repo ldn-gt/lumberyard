@@ -1,0 +1,15 @@
+{
+    "none":
+    {
+        "Include":
+        [
+            "Include/DungeonSim/DungeonSimBus.h"
+        ],
+        "Source":
+        [
+            "Source/DungeonSimModule.cpp",
+            "Source/DungeonSimSystemComponent.cpp",
+            "Source/DungeonSimSystemComponent.h"
+        ]
+    }
+}
